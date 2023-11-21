@@ -1,0 +1,7 @@
+mkdir sample-app
+cd sample-app
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl start nginx
+wget https://www.free-css.com/assets/files/free-css-templates/download/page296/healet.zip
+mv healet /var/www/html
